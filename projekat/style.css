@@ -1,0 +1,92 @@
+body {
+	background-color: mistyrose;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 0.2rem;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+	position: center;
+	width: 50%;
+}
+
+a:link {
+	color: rgb(255, 77, 77);
+}
+
+a:visited {
+	color: rgb(43, 11, 11);
+}
+
+a:hover {
+	color: blue;
+}
+
+#poetrySlika1,
+#poetrySlika2 {
+	border: solid;
+	border-color: rgb(255, 77, 77);
+}
+
+#song {
+	position: fixed;
+	right: 0px;
+	top: 130px;
+	width: 50%;
+	height: calc(100vh - 140px);
+	border: solid;
+	border-color: rgb(255, 77, 77);
+	border-width: 5px;
+}
+
+.tabela {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navigacija {
+	background-color: rgb(255, 77, 77);
+	color: rgb(255, 230, 230);
+	position: fixed;
+	white-space: nowrap;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+}
+
+.navigacija a div {
+	display: inline-block;
+	padding: 10px;
+	margin: 0px 5px;
+	background-color: rgb(255, 184, 159);
+	color: white;
+	min-width: 100px;
+	text-align: center;
+}
+
+.navigacija a:hover div {
+	background-color: rgb(255, 230, 230);
+	color: rgb(26, 0, 0);
+}
+
+.content {
+	position: absolute;
+	top: 180px;
+	width: 48%;
+	margin-right: 25px;
+	text-align: justify;
+}
+
+.content2 {
+	position: relative;
+	width: 100%;
+	top: 200px;
+	margin-right: 25px;
+	text-align: justify;
+}
